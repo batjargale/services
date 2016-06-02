@@ -24,17 +24,17 @@
 
 <body>
 	<div class="brand clearfix">
-		<a href="index.html" class="logo"><img src="img/logo.jpg" class="img-responsive" alt=""></a>
+		<a href="#" class="logo"><img src="{{asset('img/logo.jpg')}}" class="img-responsive" alt=""></a>
 		<span class="menu-btn"><i class="fa fa-bars"></i></span>
 		<ul class="ts-profile-nav">
-			<li><a href="#">Help</a></li>
-			<li><a href="#">Settings</a></li>
+			<li><a href="#">Тусламж</a></li>
+			<li><a href="#">Тохиргоо</a></li>
 			<li class="ts-account">
-				<a href="#"><img src="img/ts-avatar.jpg" class="ts-avatar hidden-side" alt=""> Account <i class="fa fa-angle-down hidden-side"></i></a>
+				<a href="#"><img src="{{asset('img/ts-avatar.jpg')}}" class="ts-avatar hidden-side" alt=""> Хэрэглэгч <i class="fa fa-angle-down hidden-side"></i></a>
 				<ul>
-					<li><a href="#">My Account</a></li>
-					<li><a href="#">Edit Account</a></li>
-					<li><a href="#">Logout</a></li>
+					<li><a href="#">Хувийн мэдээлэл</a></li>
+					<li><a href="#">Нууц үг солих</a></li>
+					<li><a href="#">Гарах</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -43,12 +43,12 @@
 	<div class="ts-main-content">
 		<nav class="ts-sidebar">
 			<ul class="ts-sidebar-menu">
-				<li class="ts-label">Search</li>
+				<li class="ts-label">Хайлт</li>
 				<li>
-					<input type="text" class="ts-sidebar-search" placeholder="Search here...">
+					<input type="text" class="ts-sidebar-search" placeholder="Хайх үгээ бичнэ...">
 				</li>
-				<li class="ts-label">Main</li>
-				<li class="open"><a href="#"><i class="fa fa-dashboard"></i> Dashboard</a>
+				<li class="ts-label">Үндсэн хэсэг</li>
+				<li class="open"><a href="#"><i class="fa fa-dashboard"></i>Нүүр хуудас</a>
 				</li>
 				<li><a href="#"><i class="fa fa-desktop"></i> Мэдээний ангилал</a>
 					<ul>
@@ -72,7 +72,7 @@
 				<div class="row">
 					<div class="col-md-12">
 
-						<h2 class="page-title" id="pg-title" >Dashboard</h2>
+						<h2 class="page-title" id="pg-title" >Нүүр хуудас</h2>
 						
 						<div class="row">
 							<div class="col-md-12">
