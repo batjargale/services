@@ -50,6 +50,7 @@ a:hover {
 ****************************/
 .btn {
   font-family: 'Oswald', sans-serif;
+  font-size: 14px
 }
 .btn i {
   position: relative;

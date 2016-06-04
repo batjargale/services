@@ -62,6 +62,13 @@
 						<li><a href="#">Өөрчлөх</a></li>
 					</ul>
 				</li>
+				<li><a href="/admin/users"><i class="fa fa-table"></i>Хэрэглэгч</a>
+					<ul>
+						<li><a href="{{route('admin.users.index')}}">Бүгд</a></li>
+						<li><a href="{{route('admin.users.create')}}">Нэмэх</a></li>
+						
+					</ul>
+				</li>
 			
 
 			</ul>
